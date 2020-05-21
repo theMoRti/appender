@@ -61,7 +61,7 @@ body{
 }
 #emailF{
 	border: none;
-	border-bottom: 2pt solid #0066ff;
+	border-bottom: 2pt solid #2196F3;
 	width: 30%;
 	height: 1.2cm;
 	background-color: transparent;
@@ -121,7 +121,6 @@ input[type=password]:focus{
 	padding-right: 98px;
 	float: right;
 	margin-top: 20%;
-	margin-right: 2%;
 	font-family: Minecraft;
 	font-size: 15px;
 	
