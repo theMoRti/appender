@@ -10,15 +10,13 @@
 			
 				<p id="boxContent">Insert 3 Parameters</p>
 				<form action="result.php" method="post">
-					<input type="text" class="marg" id="emailF" placeholder="1"/>
-					<input type="text" class="marg" id="other" placeholder="2" style="border-bottom: 2pt solid red;"/>
-					<input type="text" class="marg" id="other" placeholder="3"/>
+					<input type="text" name="one" class="marg" id="emailF" placeholder="1"/>
+					<input type="text" name="two" class="marg" id="other" placeholder="2" style="border-bottom: 2pt solid red;"/>
+					<input type="text" name="three" class="marg" id="other" placeholder="3"/>
 					<br>
-					<bottun type="submit" name="btn">
-						<a id="submitBtn" href="result.php" target="_blank" style="margin-right: 345px;border-radius: 12px;color: white; background-color: #123456;">
-							Login
-						</a>
-					</bottun>
+					<button name="btn" id="submitBtn" style="margin-right: 345px;border-radius: 12px;color: white; background-color: #123456;">
+						Append
+					</button>
 				</form>
 			</div>
 		</body>
