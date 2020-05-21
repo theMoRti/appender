@@ -1,0 +1,197 @@
+
+@font-face{
+	font-family: vazir;
+    src:url (Fonts/Vazir.ttf);
+    src:url (Fonts/Vazir.woff);
+	src:url (Fonts/Vazir.woff2);
+	font-weight: normal;
+}
+@font-face{
+	font-family: minecraft;
+	src:url (Fonts/Minecraft.ttf);
+		
+}
+@font-face{
+	font-family: minecraftTen;
+	src:url (Fonts/MinecraftTen-VGORe.ttf);
+		
+}
+body{
+	background-color: #123456;
+	text-align: center;
+}
+#loginBox{
+	background-color: whitesmoke;
+	background-size: cover;
+	width: 950px;
+	height: 500px;
+	border-radius: 1%;
+	margin: auto;
+	padding: 50px;
+	overflow: hidden;
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+#topText{
+	
+	font-size: 72px;
+	font-family: minecraft;
+	text-shadow: 1px 1px 9px rgba(0,0,0,0.68);
+	color: white;
+	
+	
+	
+	
+}
+#boxContent{
+	
+	font-family: Minecraft;
+	font-size: 36px;
+	
+	
+	
+	
+}
+#emailF{
+	border: none;
+	border-bottom: 2pt solid #0066ff;
+	width: 30%;
+	height: 1.2cm;
+	background-color: transparent;
+	border-radius: 1%;
+	padding: 4pt;
+	font-family: Minecraft;
+	transition: width 2s;
+	
+}
+input[type=text]:focus{
+	
+	outline: none;
+	
+	
+	
+}
+input[type=password]:focus{
+	
+	outline: none;
+	
+	
+	
+}
+#emailPW{
+	border: none;
+	border-bottom: 2pt solid #ae00ff;
+	width: 30%;
+	height: 1.2cm;
+	background-color: transparent;
+	border-radius: 1%;
+	padding: 4pt;
+	font-family: Minecraft;
+	
+}
+#cf{
+	margin-top: 22.5%;
+	margin-left:8%;
+	float: left;
+	font-size:14px;
+	
+	
+	
+}
+.mcFont{
+	
+	font-family: Minecraft;
+	
+	
+}
+#submitBtn{
+	
+	
+	background-color: #00b034;
+	padding-top: 23.5px;
+	padding-bottom: 23.5px;
+	padding-left: 98px;
+	padding-right: 98px;
+	float: right;
+	margin-top: 20%;
+	margin-right: 2%;
+	font-family: Minecraft;
+	font-size: 15px;
+	
+	
+}
+a#submitBtn:hover{
+	
+	background-color:#006CFF;
+	text-decoration: none;
+	
+	
+}
+a:acitve{
+	
+	color: white;
+	
+	
+	
+}
+a:visited{
+	
+	color: white;
+	
+	
+	
+}
+a:unvisited{
+	
+	color: white;
+	
+	
+	
+}
+a{
+	
+	text-decoration: none;
+	
+	
+}
+#signIn{
+	
+	color: black;
+	font-family: Minecraft;
+	font-size: 14px;
+	float: right;
+	padding: 15%;
+	margin-top: 20%;
+	
+	
+	
+		
+		
+		
+		
+	
+	
+	
+}
+#other{
+	border: none;
+	border-bottom: 2pt solid green;
+	width: 30%;
+	height: 1.2cm;
+	background-color: transparent;
+	border-radius: 1%;
+	padding: 4pt;
+	font-family: Minecraft;
+	transition: width 2s;
+	
+}
+.marg{
+	margin-left: 1.5%;
+}
