@@ -16,7 +16,7 @@
 					<input type="text" class="marg" id="other" placeholder="3"/>
 					<br>
 					<bottun type="submit" name="btn">
-						<a id="submitBtn" target="_blank" style="margin-right: 344px;border-radius: 12px;color: white; background-color: #123456;">
+						<a id="submitBtn" href="result.php" target="_blank" style="margin-right: 344px;border-radius: 12px;color: white; background-color: #123456;">
 							Login
 						</a>
 					</bottun>
