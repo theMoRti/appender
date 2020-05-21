@@ -24,19 +24,13 @@ body{
 	background-color: whitesmoke;
 	background-size: cover;
 	width: 950px;
-	height: 500px;
+	height: 410px;
 	border-radius: 1%;
 	margin: auto;
 	padding: 50px;
 	overflow: hidden;
-	
-	
-	
-	
-	
-	
-	
-	
+	margin-bottom: 50px;
+
 }
 
 #topText{
@@ -120,7 +114,7 @@ input[type=password]:focus{
 	padding-left: 98px;
 	padding-right: 98px;
 	float: right;
-	margin-top: 20%;
+	margin-top: 13%;	
 	font-family: Minecraft;
 	font-size: 15px;
 	
