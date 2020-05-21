@@ -9,8 +9,7 @@
 			<div id="loginBox">
 			
 				<p id="boxContent">Insert 3 Parameters</p>
-				<form>
-				
+				<form action="result.php" method="post">
 					<input type="text" class="marg" id="emailF" placeholder="1"/>
 					<input type="text" class="marg" id="other" placeholder="2" style="border-bottom: 2pt solid red;"/>
 					<input type="text" class="marg" id="other" placeholder="3"/>
