@@ -4,7 +4,7 @@
 			<link rel="stylesheet" type="text/css" href="Styles/style.css">
 
 		</head>
-		<body>
+		<body style="background-image: src('Images/loginBg.png');">
 			<h1 id="topText">Append everything Together !</h1>
 			<div id="loginBox">
 			
