@@ -20,7 +20,7 @@ $twoarray = preg_split('/\r\n|\r|\n/', $two);
 				<p id="boxContent">Your Result is :</p>
 				<form>
 				
-					<textarea type="text" class="marg" id="emailF" value="<?php
+					<textarea type="text" class="marg" id="emailF" style="font-size: 18px;"/><?php
 						$i = 0;
 						$countarr = count($onearray);
 
@@ -28,7 +28,7 @@ $twoarray = preg_split('/\r\n|\r|\n/', $two);
 							@$onearray[$i] = @$onearray[$i].@$twoarray[$i]; 
 							echo @$onearray[$i]."\r\n";
 						}
-					?>" style="font-size: 18px;"/></textarea>
+					?></textarea>
 					<br>
 					<bottun type="submit" name="btn">
 						<a id="submitBtn" href="index.php" style="margin-right: 344px;border-radius: 12px;color: white; background-color: #123456;">
