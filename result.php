@@ -17,10 +17,7 @@ $threearray = preg_split('/\r\n|\r|\n/', $three);
 		</head>
 		<body>
 			<h1 id="topText">Here is your Result !</h1>
-			<div id="loginBox" style="height: 680px;padding: 12px;">
-			<p>Tip : Appender is not a Passworlist maker. it used just for Append more than 1 text (3 Input).</p>
-				<p> for having more feature,
-					you can use Passwordlist Maker!</p>
+			<div id="loginBox" style="height: 635px;padding: 12px;">
 				<p id="boxContent" style="margin-top: 25px;">Your Result is :</p>
 				<form>
 				
