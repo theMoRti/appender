@@ -3,8 +3,8 @@
 $one = $_POST['one'];
 $two = $_POST['two'];
 
-$onearray = explode(' ', $one);
-$twoarray = explode(' ', $two);
+$onearray = preg_split('/\r\n|\r|\n/', $one);
+$twoarray = preg_split('/\r\n|\r|\n/', $two);
 
 ?>
 <!DOCTYPE html>
