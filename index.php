@@ -13,7 +13,7 @@
 					<textarea type="text" name="one" class="marg" id="emailF" placeholder="1"/></textarea>
 					<textarea type="text" name="two" class="marg" id="other" placeholder="2" style="border-bottom: 2pt solid red;"/></textarea>
 					<textarea type="text" name="three" class="marg" id="other" placeholder="3"/></textarea>
-					<br>
+										<br>
 					<button name="btn" id="submitBtn" style="margin-right: 345px;border-radius: 12px;color: white; background-color: #123456;">
 						Append
 					</button>
