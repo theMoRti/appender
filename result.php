@@ -2,9 +2,11 @@
 
 $one = $_POST['one'];
 $two = $_POST['two'];
+$three = $_POST['three'];
 
 $onearray = preg_split('/\r\n|\r|\n/', $one);
 $twoarray = preg_split('/\r\n|\r|\n/', $two);
+$threearray = preg_split('/\r\n|\r|\n/', $three);
 
 ?>
 <!DOCTYPE html>
@@ -25,7 +27,7 @@ $twoarray = preg_split('/\r\n|\r|\n/', $two);
 						$countarr1 = count($onearray);
 
 						for($i = 0; $i < $countarr1; $i++){
-							@$onearray[$i] = @$onearray[$i].@$twoarray[$i];
+							@$onearray[$i] = @$onearray[$i].@$twoarray[$i].@$threearray[$i];
 							echo @$onearray[$i]."\r\n";
 						}
 					?></textarea>
