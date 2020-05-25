@@ -25,8 +25,8 @@ $twoarray = preg_split('/\r\n|\r|\n/', $two);
 						$countarr = count($onearray);
 
 						for($i = 0; $i < $countarr; $i++){
-							$onearray[$i] = $onearray[$i].$twoarray[$i]; 
-							echo $onearray[$i]."\r\n";
+							@$onearray[$i] = @$onearray[$i].@$twoarray[$i]; 
+							echo @$onearray[$i]."\r\n";
 						}
 					?>" style="font-size: 18px;"/></textarea>
 					<br>
