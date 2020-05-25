@@ -20,12 +20,12 @@ $twoarray = preg_split('/\r\n|\r|\n/', $two);
 				<p id="boxContent">Your Result is :</p>
 				<form>
 				
-					<textarea type="text" class="marg" id="emailF" style="font-size: 18px;"/><?php
+					<textarea type="text" rows="4" cols="50" class="marg" id="emailF" style="font-size: 18px;"/><?php
 						$i = 0;
-						$countarr = count($onearray);
+						$countarr1 = count($onearray);
 
-						for($i = 0; $i < $countarr; $i++){
-							@$onearray[$i] = @$onearray[$i].@$twoarray[$i]; 
+						for($i = 0; $i < $countarr1; $i++){
+							@$onearray[$i] = @$onearray[$i].@$twoarray[$i];
 							echo @$onearray[$i]."\r\n";
 						}
 					?></textarea>
