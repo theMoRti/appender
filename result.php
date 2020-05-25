@@ -17,12 +17,14 @@ $threearray = preg_split('/\r\n|\r|\n/', $three);
 		</head>
 		<body>
 			<h1 id="topText">Here is your Result !</h1>
-			<div id="loginBox">
-			
-				<p id="boxContent">Your Result is :</p>
+			<div id="loginBox" style="height: 680px;padding: 12px;">
+			<p>Tip : Appender is not a Passworlist maker. it used just for Append more than 1 text (3 Input).</p>
+				<p> for having more feature,
+					you can use Passwordlist Maker!</p>
+				<p id="boxContent" style="margin-top: 25px;">Your Result is :</p>
 				<form>
 				
-					<textarea type="text" rows="4" cols="50" class="marg" id="emailF" style="font-size: 18px;"/><?php
+					<textarea type="text" rows="4" cols="50" class="marg" id="emailF" style="border: 1.7pt solid #2196F3;font-size: 18px; width: 60%; height: 10cm;"/><?php
 						$i = 0;
 						$countarr1 = count($onearray);
 
@@ -33,7 +35,7 @@ $threearray = preg_split('/\r\n|\r|\n/', $three);
 					?></textarea>
 					<br>
 					<bottun type="submit" name="btn">
-						<a id="submitBtn" href="index.php" style="margin-right: 344px;border-radius: 12px;color: white; background-color: #123456;">
+						<a id="submitBtn" href="index.php" style="margin-top: 4% !important; margin-right: 344px;border-radius: 12px;color: white; background-color: #123456;">
 							Return
 						</a>
 					</bottun>
