@@ -7,8 +7,6 @@
 		<body style="background-image: src('Images/loginBg.png');">
 			<h1 id="topText">Append everything Together !</h1>
 			<div id="loginBox" style="height: 11003px;padding: 12px;">
-				<p>Tip : Appender is not a Passworlist maker. it used just for Append more than 1 text (3 Input).</p>
-				<p> for having more feature, you can use Passwordlist Maker!</p>
 				<p id="boxContent" style="margin-top: 25px;">Insert 3 Parameters</p>
 				<form action="result.php" method="post">
 					<textarea type="text" name="one" class="marg" id="emailF" placeholder="1" style="height: 10cm;font-size: 15px;"/></textarea>
