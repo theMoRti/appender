@@ -24,13 +24,18 @@ $threearray = preg_split('/\r\n|\r|\n/', $three);
 					<textarea type="text" rows="4" cols="50" class="marg" id="emailF" style="border: 1.7pt solid #2196F3;font-size: 18px; width: 60%; height: 10cm;"/><?php
 						$i = 0;
 						$countarr1 = count($onearray);
-						$c = array_combine($twoarray, $threearray);
+						//$c = array_combine($twoarray, $threearray);
 						
 						for($i = 0; $i < $countarr1; $i++){
-							foreach($c as $key => $val){
-								@$resultarr[$i] = @$onearray[$i].@$key.@$val;
+
+							foreach ($twoarray as $val2) {
+
+								foreach ($threearray as $val3) {
+
+								@$resultarr[$i] = @$onearray[$i].@$val2.@$val3;
 								echo @$resultarr[$i]."\r\n";
-							}
+								}
+							}	
 						}
 					?></textarea>
 					<br>
