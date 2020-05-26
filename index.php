@@ -5,7 +5,7 @@
 
 		</head>
 		<body style="background-image: src('Images/loginBg.png');">
-			<h1 id="topText">Append everything Together !</h1>
+			<h1 id="topText" style="margin-top: 30px;">Append everything Together !</h1>
 			<div id="loginBox" style="height: 650px;padding: 12px;">
 				<p id="boxContent" style="margin-top: 25px;">Insert 3 Parameters</p>
 				<form action="result.php" method="post">
