@@ -26,8 +26,10 @@ $threearray = preg_split('/\r\n|\r|\n/', $three);
 						$countarr1 = count($onearray);
 
 						for($i = 0; $i < $countarr1; $i++){
-							@$onearray[$i] = @$onearray[$i].@$twoarray[$i].@$threearray[$i];
-							echo @$onearray[$i]."\r\n";
+							foreach($twoarray as $val){
+								@$resultarr[$i] = @$onearray[$i].@$val;
+								echo @$resultarr[$i]."\r\n";
+							}
 						}
 					?></textarea>
 					<br>
