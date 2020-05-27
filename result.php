@@ -7,8 +7,9 @@ $three = $_POST['three'];
 $onearray = preg_split('/\r\n|\r|\n/', $one);
 $twoarray = preg_split('/\r\n|\r|\n/', $two);
 $threearray = preg_split('/\r\n|\r|\n/', $three);
-
+// adding checker 
 if (@$_POST['a1']) {
+	// replace every value in array what have a-A with @ and 4
 	$rep1x = array_map(fn($el) => str_replace('a', '@', $el), $onearray);
 	$rep2x = array_map(fn($el) => str_replace('a', '@', $el), $twoarray);
 	$rep3x = array_map(fn($el) => str_replace('a', '@', $el), $threearray);
@@ -28,7 +29,7 @@ if (@$_POST['a1']) {
 	$rep3 = array_map(fn($el) => str_replace('A', '4', $el), $rep3x);
 
 }  elseif (@$_POST['e1']) {
-
+	// replace every value in array what have E-e with 3
 	$rep1x = array_map(fn($el) => str_replace('e', '3', $el), $onearray);
 	$rep2x = array_map(fn($el) => str_replace('e', '3', $el), $twoarray);
 	$rep3x = array_map(fn($el) => str_replace('e', '3', $el), $threearray);
@@ -38,7 +39,7 @@ if (@$_POST['a1']) {
 	$rep3 = array_map(fn($el) => str_replace('E', '3', $el), $rep3x);
 	
 }  elseif (@$_POST['s1']) {
-
+	// replace every value in array what have S-s with $ and 5
 	$rep1x = array_map(fn($el) => str_replace('s', '$', $el), $onearray);
 	$rep2x = array_map(fn($el) => str_replace('s', '$', $el), $twoarray);
 	$rep3x = array_map(fn($el) => str_replace('s', '$', $el), $threearray);
@@ -58,7 +59,7 @@ if (@$_POST['a1']) {
 	$rep3 = array_map(fn($el) => str_replace('S', '5', $el), $rep3x);
 	
 }  elseif (@$_POST['o1']) {
-
+	// replace every value in array what have O-o with 0
 	$rep1x = array_map(fn($el) => str_replace('o', '0', $el), $onearray);
 	$rep2x = array_map(fn($el) => str_replace('o', '0', $el), $twoarray);
 	$rep3x = array_map(fn($el) => str_replace('o', '0', $el), $threearray);
@@ -68,7 +69,7 @@ if (@$_POST['a1']) {
 	$rep3 = array_map(fn($el) => str_replace('O', '0', $el), $rep3x);
 	
 }  elseif (@$_POST['t1']) {
-
+	// replace every value in array what have T-t with 7
 	$rep1x = array_map(fn($el) => str_replace('t', '7', $el), $onearray);
 	$rep2x = array_map(fn($el) => str_replace('t', '7', $el), $twoarray);
 	$rep3x = array_map(fn($el) => str_replace('t', '7', $el), $threearray);
@@ -78,7 +79,7 @@ if (@$_POST['a1']) {
 	$rep3 = array_map(fn($el) => str_replace('T', '7', $el), $rep3x);
 	
 }  elseif (@$_POST['i1']) {
-
+	// replace every value in array what have I-i with ! and 1
 	$rep1x = array_map(fn($el) => str_replace('i', '!', $el), $onearray);
 	$rep2x = array_map(fn($el) => str_replace('i', '!', $el), $twoarray);
 	$rep3x = array_map(fn($el) => str_replace('i', '!', $el), $threearray);
@@ -98,7 +99,7 @@ if (@$_POST['a1']) {
 	$rep3 = array_map(fn($el) => str_replace('I', '1', $el), $rep3x);
 	
 }  elseif (@$_POST['l1']) {
-
+	// replace every value in array what have L-l with 1
 	$rep1x = array_map(fn($el) => str_replace('l', '1', $el), $onearray);
 	$rep2x = array_map(fn($el) => str_replace('l', '1', $el), $twoarray);
 	$rep3x = array_map(fn($el) => str_replace('l', '1', $el), $threearray);
@@ -108,7 +109,7 @@ if (@$_POST['a1']) {
 	$rep3 = array_map(fn($el) => str_replace('L', '1', $el), $rep3x);
 	
 }  elseif (@$_POST['w1']) {
-
+	// replace every value in array what have W-w with vv
 	$rep1x = array_map(fn($el) => str_replace('w', 'vv', $el), $onearray);
 	$rep2x = array_map(fn($el) => str_replace('w', 'vv', $el), $twoarray);
 	$rep3x = array_map(fn($el) => str_replace('w', 'vv', $el), $threearray);
@@ -118,7 +119,7 @@ if (@$_POST['a1']) {
 	$rep3 = array_map(fn($el) => str_replace('W', 'vv', $el), $rep3x);
 	
 }  elseif (@$_POST['g1']) {
-
+	// replace every value in array what have G-g with 6
 	$rep1x = array_map(fn($el) => str_replace('g', '6', $el), $onearray);
 	$rep2x = array_map(fn($el) => str_replace('g', '6', $el), $twoarray);
 	$rep3x = array_map(fn($el) => str_replace('g', '6', $el), $threearray);
@@ -128,16 +129,19 @@ if (@$_POST['a1']) {
 	$rep3 = array_map(fn($el) => str_replace('G', '6', $el), $rep3x);	
 
 }	elseif (@$_POST['ucfirst']) {
+	// make first letter in each value Up in array 
 	$rep1 = array_map('ucfirst', $onearray);
 	$rep2 = array_map('ucfirst', $twoarray);
 	$rep3 = array_map('ucfirst', $threearray);
 
 }	elseif (@$_POST['allup']) {
+	// make each value in the array uppercase 
 	$rep1 = array_map('strtoupper', $onearray);
 	$rep2 = array_map('strtoupper', $twoarray);
 	$rep3 = array_map('strtoupper', $threearray);
 
 }	elseif (@$_POST['alldown']) {
+	// make each value in the array lowercase
 	$rep1 = array_map('strtolower', $onearray);
 	$rep2 = array_map('strtolower', $twoarray);
 	$rep3 = array_map('strtolower', $threearray);
