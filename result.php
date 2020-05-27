@@ -126,7 +126,22 @@ if (@$_POST['a1']) {
 	$rep1 = array_map(fn($el) => str_replace('G', '6', $el), $rep1x);
 	$rep2 = array_map(fn($el) => str_replace('G', '6', $el), $rep2x);
 	$rep3 = array_map(fn($el) => str_replace('G', '6', $el), $rep3x);	
-}		
+
+}	elseif (@$_POST['ucfirst']) {
+	$rep1 = array_map('ucfirst', $onearray);
+	$rep2 = array_map('ucfirst', $twoarray);
+	$rep3 = array_map('ucfirst', $threearray);
+
+}	elseif (@$_POST['allup']) {
+	$rep1 = array_map('strtoupper', $onearray);
+	$rep2 = array_map('strtoupper', $twoarray);
+	$rep3 = array_map('strtoupper', $threearray);
+
+}	elseif (@$_POST['alldown']) {
+	$rep1 = array_map('strtolower', $onearray);
+	$rep2 = array_map('strtolower', $twoarray);
+	$rep3 = array_map('strtolower', $threearray);
+}	
 ?>
 <!DOCTYPE html>
 	<html>
