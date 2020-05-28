@@ -7,9 +7,12 @@ $three = $_POST['three'];
 $onearray = preg_split('/\r\n|\r|\n/', $one);
 $twoarray = preg_split('/\r\n|\r|\n/', $two);
 $threearray = preg_split('/\r\n|\r|\n/', $three);
-//include the word proccesor file
-include_once "include.php";
 
+$rep1 = $onearray;
+$rep2 = $twoarray;
+$rep3 = $threearray;	
+
+include_once "include.php";
 ?>
 <!DOCTYPE html>
 	<html>
