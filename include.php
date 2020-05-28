@@ -1,5 +1,5 @@
 <?php
-
+// wordprocessor
 switch(true) {
     case isset($_POST['a1']):
         // replace every value in array what have a-A with @ and 4

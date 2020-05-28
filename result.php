@@ -7,11 +7,11 @@ $three = $_POST['three'];
 $onearray = preg_split('/\r\n|\r|\n/', $one);
 $twoarray = preg_split('/\r\n|\r|\n/', $two);
 $threearray = preg_split('/\r\n|\r|\n/', $three);
-
+// defult value ($rep vars are used for showing the data)
 $rep1 = $onearray;
 $rep2 = $twoarray;
 $rep3 = $threearray;	
-
+// include wordprocessor
 include_once "include.php";
 ?>
 <!DOCTYPE html>
